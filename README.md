@@ -20,5 +20,5 @@ I have individual port groups for the names of each service type, provisioning, 
 
 **Challenges**
 * Learning to use fake_pxe and power the vmware images on and off at the correct times
-* On PXE boot the interfaces would be correct, however they would all rename themselves during the overcloud deployment causing it to fail since it lost connectivity after the reboot. I solved this with the user of the interface-mapping.yaml file.
+* On PXE boot the interfaces would be correct, however they would all rename themselves during the overcloud deployment causing the deploy to fail since connectivity was lost after the firstboot. I solved this with the user of the interface-mapping.yaml file.
 * Mapping the storage drives did not work since VMware drives give no serial, or information about the drive besides the size. I just had to cross my fingers and hope that the 50GB would be recognized as sda, 200GB as sdb, and 1TB as sdc.
