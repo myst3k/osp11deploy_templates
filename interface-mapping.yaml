@@ -1,0 +1,21 @@
+resource_registry:
+  OS::TripleO::NodeUserData: /usr/share/openstack-tripleo-heat-templates/firstboot/os-net-config-mappings.yaml
+
+parameter_defaults:
+  NetConfigDataLookup:
+    node1:
+      nic1: "00:50:56:9d:45:2f"
+      nic2: "00:50:56:9d:41:5f"
+      nic3: "00:50:56:9d:32:2d"
+      nic4: "00:50:56:9d:aa:35"
+      nic5: "00:50:56:9d:1f:3d"
+      nic6: "00:50:56:9d:bd:69"
+    node2:
+      nic1: "00:50:56:9d:7b:1d"
+      nic2: "00:50:56:9d:9c:45"
+      nic3: "00:50:56:9d:18:a0"
+      nic4: "00:50:56:9d:cd:c7"
+    node3:
+      nic1: "00:50:56:9d:67:64"
+      nic2: "00:50:56:9d:88:f0"
+      nic3: "00:50:56:9d:63:8b"
