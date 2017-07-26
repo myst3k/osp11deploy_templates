@@ -7,6 +7,7 @@
 * 1x Ceph Storage Node
 
 **Specs**
+
 Undercloud: 40GB drive, 4x vCpu, 8GB RAM, 2x nics, external and provisioning
 
 Controller: 50GB drive, 4x vCpu, 8GB RAM, 6x nics, provisioning, storageIp, storageMgmt, internalApi, tenant, and external
@@ -16,6 +17,7 @@ Compute: 200GB drive, 8x vCpu, 16GB RAM, 4x nics, provisioning, storageIp, inter
 Ceph: 50GB, 200GB, 1TB drives, 4x vCpu, 8GB RAM, 3x nics, provisioning, storageIp, storageMgmt
 
 **Networking**
+
 I have individual port groups for the names of each service type, provisioning, storageIp, storageMgmt, internalApi, tenant, and external. All but external is mapped to the same vSwitch. Running vyOS as the router for provisioning network, and the external network is directly connected to my home router through a separate vSwitch in VMware. Both the external network, and provisioning network are routable from anywhere in the network.
 
 **Challenges**
