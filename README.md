@@ -1,6 +1,6 @@
 # Red Hat OSP11 Overcloud Trial Deploy Templates for lab on a single Dell R710 using VMware's EVALExperience, ESXi and vCenter
 
-**Setup**
+**Setup(no vlans)**
 * 1x Undercloud
 * 1x Controller Node
 * 1x Computer Node
