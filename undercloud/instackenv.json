@@ -1,0 +1,46 @@
+{
+    "nodes": [
+        {
+            "pm_type":"fake_pxe",
+            "mac":[
+                "00:50:56:9d:45:2f"
+            ],
+            "cpu":"4",
+            "memory":"8192",
+            "disk":"50",
+            "arch":"x86_64",
+            "pm_user":"admin",
+            "pm_password":"password",
+            "pm_addr":"10.0.0.8",
+            "capabilities": "profile:control,boot_option:local"
+        },
+        {
+            "pm_type":"fake_pxe",
+            "mac":[
+                "00:50:56:9d:7b:1d"
+            ],
+            "cpu":"8",
+            "memory":"16384",
+            "disk":"200",
+            "arch":"x86_64",
+            "pm_user":"admin",
+            "pm_password":"password",
+            "pm_addr":"10.0.0.8",
+            "capabilities": "profile:compute,boot_option:local"
+        },
+        {
+            "pm_type":"fake_pxe",
+            "mac":[
+                "00:50:56:9d:67:64"
+            ],
+            "cpu":"4",
+            "memory":"8192",
+            "disk":"200",
+            "arch":"x86_64",
+            "pm_user":"admin",
+            "pm_password":"password",
+            "pm_addr":"10.0.0.8",
+            "capabilities": "profile:ceph-storage,boot_option:local"
+        }
+    ]
+}
