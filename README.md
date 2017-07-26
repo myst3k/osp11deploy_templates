@@ -8,13 +8,13 @@
 
 **Specs**
 
-Undercloud: 40GB drive, 4x vCpu, 8GB RAM, 2x nics, external and provisioning
+* Undercloud: 40GB drive, 4x vCpu, 8GB RAM, 2x nics, external and provisioning
 
-Controller: 50GB drive, 4x vCpu, 8GB RAM, 6x nics, provisioning, storageIp, storageMgmt, internalApi, tenant, and external
+* Controller: 50GB drive, 4x vCpu, 8GB RAM, 6x nics, provisioning, storageIp, storageMgmt, internalApi, tenant, and external
 
-Compute: 200GB drive, 8x vCpu, 16GB RAM, 4x nics, provisioning, storageIp, internalApi, tenant
+* Compute: 200GB drive, 8x vCpu, 16GB RAM, 4x nics, provisioning, storageIp, internalApi, tenant
 
-Ceph: 50GB, 200GB, 1TB drives, 4x vCpu, 8GB RAM, 3x nics, provisioning, storageIp, storageMgmt
+* Ceph: 50GB, 200GB, 1TB drives, 4x vCpu, 8GB RAM, 3x nics, provisioning, storageIp, storageMgmt
 
 **Networking**
 
